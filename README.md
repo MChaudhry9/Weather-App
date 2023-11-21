@@ -7,7 +7,7 @@ This weather application gives you real-time updates on the weather for any give
 Displays weather info such as humidity, UV, wind speed, and visibility.
 
 ## Technologies Used
-- Integrated with a [Weather API](https://example.com](https://openweathermap.org/api)https://openweathermap.org/api)
+- [Weather API](https://example.com](https://openweathermap.org/api)https://openweathermap.org/api) Integration
 - Javascript
 - HTML
 - CSS
