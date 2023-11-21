@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet"> <!--for font-->
+    <link rel="stylesheet" href="style.css"> <!--for css file connection-->
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!--for search box-->
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter your location">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <!--for not found case-->
+        <div class="not-found">
+            <img src="images/404.png">
+            <p>Oops! Invalid location :/</p>
+        </div>
+        <!--for found case-->
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p> <!--only in celcius, add fahrenheit-->
+            <p class="feelslike"></p> <!-- feels-like temperature -->
+            <p class="type"></p>
+            <p class="description"></p>
+        </div>
+
+        <!--weather details-->
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+
+            <div class="visibility">
+                <i class="fa-solid fa-eye"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Visibility</p>
+                </div>
+            </div>
+        
+            <div class="uvi">
+                <i class="fa-solid fa-sun"></i>
+                <div class="text">
+                    <span></span>
+                    <p>UV</p>
+                </div>
+            </div>
+            <!----
+            <div class="sunrise">
+                <i class="fa-solid fa-sun"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Sunrise</p>
+                </div>
+            </div>
+
+            <div class="timezone">
+                <i class="fa-solid fa-sun"></i>
+                <div class="text">
+                    <span></span>
+                    <p>timezone</p>
+                </div>
+            </div>
+        -->
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script> <!--for font-->
+    <script src="index.js"></script> <!--javascript connection-->
+</body>
+
+</html>
+
