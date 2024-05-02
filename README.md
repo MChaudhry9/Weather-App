@@ -11,3 +11,8 @@ Displays weather info such as humidity, UV, wind speed, and visibility.
 - Javascript
 - HTML
 - CSS
+
+## Upcoming Features
+- Temperature Unit Conversion: for user's preference of displaying the weather
+- Geographic map displaying the area the user inputs
+- Dark-Light mode 
